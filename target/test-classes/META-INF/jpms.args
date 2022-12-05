@@ -1,0 +1,4 @@
+--patch-module
+com.ndn.busticketmanagerment=_
+--add-reads
+com.ndn.busticketmanagerment=ALL-UNNAMED
