@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="970.0" stylesheets="@../../../styles/fxmlvexe.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.quanlyvexe.FXMLVeXeController">
+   <children>
+      <AnchorPane prefHeight="538.0" prefWidth="266.0" styleClass="Input">
+         <children>
+            <Button layoutX="63.0" layoutY="374.0" mnemonicParsing="false" onAction="#ChinhSua" prefHeight="30.0" prefWidth="123.0" text="Sửa vé" />
+            <Button layoutX="62.0" layoutY="414.0" mnemonicParsing="false" onAction="#Xoa" prefHeight="30.0" prefWidth="123.0" text="Hủy vé" />
+            <Button layoutX="63.0" layoutY="335.0" mnemonicParsing="false" onAction="#themKH" prefHeight="30.0" prefWidth="123.0" text="Đặt vé" />
+            <TextField fx:id="txtHoten" layoutX="16.0" layoutY="154.0" prefHeight="30.0" prefWidth="234.0" promptText="Nhập vào họ tên" />
+            <Text layoutX="34.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="BÁN VÉ OU" />
+            <TextField fx:id="txtGio" layoutX="16.0" layoutY="194.0" onAction="#themKH" prefHeight="30.0" prefWidth="234.0" promptText="Chọn khung giờ (cố định)" />
+            <DatePicker fx:id="txtDate" layoutX="16.0" layoutY="233.0" prefHeight="30.0" prefWidth="233.0" promptText="Chọn ngày khởi hành" />
+            <TextField fx:id="txtMaVe" layoutX="16.0" layoutY="114.0" prefHeight="30.0" prefWidth="234.0" promptText="Ma Ve" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="txtKeyword" layoutX="275.0" layoutY="24.0" prefHeight="30.0" prefWidth="578.0" promptText="Nhập vào ký tự để tìm kiếm" />
+      <Button disable="true" layoutX="839.0" layoutY="507.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Xuất vé" visible="false" />
+      <TableView fx:id="table_ticket" layoutX="272.0" layoutY="62.0" onMouseClicked="#getSelected" prefHeight="440.0" prefWidth="690.0" visible="false" />
+      <Label layoutX="864.0" layoutY="24.0" prefHeight="30.0" prefWidth="83.0" text="Tìm kiếm">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button disable="true" layoutX="789.0" layoutY="502.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="Xuất vé" visible="false" />
+      <TableView fx:id="table_ticket" layoutX="272.0" layoutY="62.0" onMouseClicked="#getSelected" prefHeight="440.0" prefWidth="690.0" />
+      <TableView fx:id="table_ticket" layoutX="272.0" layoutY="62.0" onMouseClicked="#getSelected" prefHeight="440.0" prefWidth="626.0" />
+   </children>
+</AnchorPane>

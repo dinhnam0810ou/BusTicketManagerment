@@ -1,0 +1,24 @@
+/*
+ * Empty Stylesheet file.
+ */
+*{
+    -fx-font-family: Tahoma;
+}
+Text.Subject{
+   -fx-font-size: 36;
+    -fx-fill: black;
+    -fx-stroke-width:3;
+    -fx-stroke : pink;
+    -fx-alignment: CENTER;
+}
+AnchorPane.Input{
+  -fx-background-color: lightblue;
+}
+Button{
+    -fx-align-content: center;
+    -fx-background-color: cyan;
+    -fx-spacing: 20;
+}
+.mainFxmlClass {
+
+}

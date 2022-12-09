@@ -1,5 +1,5 @@
+com\ndn\busticketmanagerment\SecondaryController.class
+com\ndn\busticketmanagerment\PrimaryController.class
 com\ndn\busticketmanagerment\App.class
 module-info.class
-com\ndn\busticketmanagerment\SecondaryController.class
 com\ndn\config\JdbcUtils.class
-com\ndn\busticketmanagerment\PrimaryController.class

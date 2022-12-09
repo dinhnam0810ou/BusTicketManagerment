@@ -1,0 +1,28 @@
+/*
+ * Empty Stylesheet file.
+ */
+*{
+    -fx-background-color:  #F1FAEE;
+}
+Text.Subject{
+   -fx-font-size: 60;
+    -fx-fill: black;
+    -fx-stroke-width:3;
+    -fx-stroke : cyan;
+    -fx-alignment: CENTER;
+    -fx-font-family: Calibri;
+    
+}
+Button{
+     -fx-pref-width: 200px;
+     -fx-pref-height: 100px;
+     -fx-font-size: 30px;
+       -fx-background-color: #A8DADC;
+            -fx-background-radius: 8%;
+/*    -fx-border-radius: 50px;*/
+    -fx-border-width: 5px;
+}
+.mainFxmlClass {
+
+}
+

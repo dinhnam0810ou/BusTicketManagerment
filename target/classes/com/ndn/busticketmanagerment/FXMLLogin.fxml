@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="600.0" stylesheets="@../../../styles/fxmllogin.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.quanlyvexe.FXMLLoginController">
+   <children>
+      <Text layoutX="126.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="BÁN VÉ XE OU" />
+      <Button layoutX="69.0" layoutY="178.0" mnemonicParsing="false" onAction="#switchAdmin" text="ADMIN" />
+      <Button layoutX="333.0" layoutY="178.0" mnemonicParsing="false" onAction="#switchNV" prefHeight="69.0" text="NHÂN VIÊN" />
+   </children>
+</AnchorPane>
